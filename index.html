@@ -140,14 +140,12 @@
                 </tr>
             </thead>
             <tbody>
-                <!-- با جاوااسکریپت پر می‌شود -->
             </tbody>
         </table>
 
     </div>
 
 <script>
-// ⚽ نسخه شماره ۳ — با Proxy (بدون CORS Error)
 async function ladeLaLigaTabelle() {
     try {
         const apiURL = "https://api.football-data.org/v4/competitions/PD/standings";
@@ -181,7 +179,7 @@ async function ladeLaLigaTabelle() {
         });
 
     } catch (e) {
-        console.error("خطا در لود جدول لالیگا", e);
+        console.error("", e);
     }
 }
 
